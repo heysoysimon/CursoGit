@@ -24,3 +24,8 @@ comandos basicos de git
 
  comitear un proyecto   
  para comitear = git commit -m "un texto con sentido "
+
+ para borrar un archivo =  git rm nombre.js
+ para borrar un cambio = git restore--staged nombre.js
+ para restaurar un archivo = git restore nombre 
+ para cambiar nombre a un archivo = mv archivo.js destino.js
