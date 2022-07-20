@@ -29,3 +29,31 @@ comandos basicos de git
  para borrar un cambio = git restore--staged nombre.js
  para restaurar un archivo = git restore nombre 
  para cambiar nombre a un archivo = mv archivo.js destino.js
+ para pasar de una vez al stage = git mv archivo.js destino.js
+
+ para ignorar archivos se crea un acarpeta .gitignore y se anade el nombre en ella 
+ se tiene que añadir al stage
+ para ver un mejor status = git status -s
+
+ M = modificado
+
+ A = añadido
+
+ ?? = no agrgado 
+ si estan en verde estan en el stage
+
+ para ver los cambions de manera visual = git diff
+
+ let gato = gato
+ 
+-let chalotte = gato
+\ No newline at end of file
++let chalotte = gato
++
++let perro
++
++let persona 
+\ No newline at end of file
+
+para ver historila = git log 
+para ver historila en una linea git log --oneline
