@@ -57,3 +57,13 @@ comandos basicos de git
 
 para ver historila = git log 
 para ver historila en una linea git log --oneline
+
+para saber que rama estas trabajando git branch
+
+para crear un arama git checkout -b nombreRama
+
+para ver el contenido de un archivo = cat nombre
+para cambiar de rama = git checkout nombreRama
+
+para traer una rama alterna a la rama princilpa usar git merge nombreRama
+OJO para hacerlo se debe estar en la rama principal 
