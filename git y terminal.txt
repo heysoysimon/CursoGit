@@ -1,0 +1,26 @@
+configurar git
+
+para configurar nombre = git config --globa user.name "nombre"
+para configurar correo = git config --global user.email coreo@correo.com
+para abrir vsCode = code 
+para configurar crlf = --global core.autocrlf input/ true si es windows
+para ver mas opciones de configuracion = git config --h
+
+comandos basicos de la terminal 
+
+para saber en que carpet a estas = pwd 
+para ver la lista de archivos = ls
+para ver archivos ocultos = ls -a
+para aceder a una carpeta = cd carpeta
+para regresarse una carpeta = cd ..
+para abri editor en la carpeta actual = code .
+
+comandos basicos de git
+ para saber el estado del proyecto = git status
+ para añadir un archivo o codigo = git add nombre.js o . para añadir todo lo que hay 
+ o .js para añadir todos los archivo sque terminen en .js o diferente 
+ para añadir dos archivos= git add nombre.js nombre.html
+
+
+ comitear un proyecto   
+ para comitear = git commit -m "un texto con sentido "
